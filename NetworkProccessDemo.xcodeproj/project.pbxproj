@@ -65,6 +65,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1040E6EF1B57C7030042A4BF /* AppEngin */ = {
+			isa = PBXGroup;
+			children = (
+				1040E6F21B57C77B0042A4BF /* CityList */,
+			);
+			path = AppEngin;
+			sourceTree = "<group>";
+		};
+		1040E6F01B57C7110042A4BF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1040E6F11B57C7250042A4BF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		1040E6F21B57C77B0042A4BF /* CityList */ = {
+			isa = PBXGroup;
+			children = (
+				1040E6F31B57C77B0042A4BF /* Controller */,
+				1040E6F41B57C77B0042A4BF /* Helper */,
+				1040E6F51B57C77B0042A4BF /* Model */,
+				1040E6F61B57C77B0042A4BF /* View */,
+			);
+			path = CityList;
+			sourceTree = "<group>";
+		};
+		1040E6F31B57C77B0042A4BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1040E6F41B57C77B0042A4BF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1040E6F51B57C77B0042A4BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1040E6F61B57C77B0042A4BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		10ABE5051B57B2AC0071BF38 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +149,9 @@
 		10ABE5101B57B2AC0071BF38 /* NetworkProccessDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1040E6F11B57C7250042A4BF /* Custom */,
+				1040E6F01B57C7110042A4BF /* Common */,
+				1040E6EF1B57C7030042A4BF /* AppEngin */,
 				10ABE5151B57B2AC0071BF38 /* AppDelegate.h */,
 				10ABE5161B57B2AC0071BF38 /* AppDelegate.m */,
 				10ABE5181B57B2AC0071BF38 /* ViewController.h */,
