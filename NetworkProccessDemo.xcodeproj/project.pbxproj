@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1040E6FA1B57C88D0042A4BF /* HttpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1040E6F91B57C88D0042A4BF /* HttpTools.m */; };
+		1040E6FD1B57C8A40042A4BF /* MetaDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1040E6FC1B57C8A40042A4BF /* MetaDataTool.m */; };
+		1040E7021B57C92E0042A4BF /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 1040E6FF1B57C92E0042A4BF /* Account.m */; };
+		1040E7031B57C92E0042A4BF /* AccountTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1040E7011B57C92E0042A4BF /* AccountTools.m */; };
 		10ABE5141B57B2AC0071BF38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ABE5131B57B2AC0071BF38 /* main.m */; };
 		10ABE5171B57B2AC0071BF38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ABE5161B57B2AC0071BF38 /* AppDelegate.m */; };
 		10ABE51A1B57B2AC0071BF38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ABE5191B57B2AC0071BF38 /* ViewController.m */; };
@@ -28,6 +32,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1040E6F71B57C88D0042A4BF /* APIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHeader.h; sourceTree = "<group>"; };
+		1040E6F81B57C88D0042A4BF /* HttpTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTools.h; sourceTree = "<group>"; };
+		1040E6F91B57C88D0042A4BF /* HttpTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTools.m; sourceTree = "<group>"; };
+		1040E6FB1B57C8A40042A4BF /* MetaDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaDataTool.h; sourceTree = "<group>"; };
+		1040E6FC1B57C8A40042A4BF /* MetaDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaDataTool.m; sourceTree = "<group>"; };
+		1040E6FE1B57C92E0042A4BF /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		1040E6FF1B57C92E0042A4BF /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		1040E7001B57C92E0042A4BF /* AccountTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTools.h; sourceTree = "<group>"; };
+		1040E7011B57C92E0042A4BF /* AccountTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTools.m; sourceTree = "<group>"; };
+		1040E7041B57C95A0042A4BF /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		10ABE50E1B57B2AC0071BF38 /* NetworkProccessDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkProccessDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10ABE5121B57B2AC0071BF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10ABE5131B57B2AC0071BF38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +97,16 @@
 		1040E6F11B57C7250042A4BF /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				1040E6F71B57C88D0042A4BF /* APIHeader.h */,
+				1040E6F81B57C88D0042A4BF /* HttpTools.h */,
+				1040E6F91B57C88D0042A4BF /* HttpTools.m */,
+				1040E6FB1B57C8A40042A4BF /* MetaDataTool.h */,
+				1040E6FC1B57C8A40042A4BF /* MetaDataTool.m */,
+				1040E6FE1B57C92E0042A4BF /* Account.h */,
+				1040E6FF1B57C92E0042A4BF /* Account.m */,
+				1040E7001B57C92E0042A4BF /* AccountTools.h */,
+				1040E7011B57C92E0042A4BF /* AccountTools.m */,
+				1040E7041B57C95A0042A4BF /* Singleton.h */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -343,8 +367,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				10ABE51A1B57B2AC0071BF38 /* ViewController.m in Sources */,
+				1040E7031B57C92E0042A4BF /* AccountTools.m in Sources */,
 				10ABE5171B57B2AC0071BF38 /* AppDelegate.m in Sources */,
 				10ABE5141B57B2AC0071BF38 /* main.m in Sources */,
+				1040E7021B57C92E0042A4BF /* Account.m in Sources */,
+				1040E6FA1B57C88D0042A4BF /* HttpTools.m in Sources */,
+				1040E6FD1B57C8A40042A4BF /* MetaDataTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
